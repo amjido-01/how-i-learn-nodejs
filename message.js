@@ -1,4 +1,8 @@
 const users = ['amin', 'sani', 'adam', 'usman'];
-console.log(users, "from the main file");
+const lan = ['hausa', 'english']
+// console.log(users, "from the main file");
 
-module.exports = users
+module.exports = {
+    users: users,
+    lan: lan
+}
